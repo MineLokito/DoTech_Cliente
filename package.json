@@ -6,14 +6,25 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^4.6.0",
+    "firebase": "~7.10.0",
+    "formik": "^2.2.6",
+    "history": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-firebase-file-uploader": "^2.4.4",
+    "react-router": "^6.0.0-beta.0",
+    "react-router-dom": "^6.0.0-beta.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-toastify": "^7.0.3",
+    "reactstrap": "^8.9.0",
+    "tailwindcss": "^2.0.3",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npx tailwindcss build src\\assets\\css\\tailwind.css -o src\\assets\\css\\main.css && react-scripts start",
+    "build": "npx tailwindcss build src\\assets\\css\\tailwind.css -o src\\assets\\css\\main.css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss": "^8.2.7"
   }
 }
