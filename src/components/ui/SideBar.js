@@ -15,7 +15,7 @@ const SideBar = () => {
                 <nav className="mt-10">
                     <NavLink className="p-1 text-black block hover:bg-red-600 hover:text-gray-900" activeStyle={{
                         fontWeight: "bold", color: "white", backgroundColor: "red"
-                    }} exact="true" to="/" end={true}>Inicio</NavLink>
+                    }} exact="true" to="/inicio" end={true}>Inicio</NavLink>
                     <NavLink className="p-1 text-black block hover:bg-red-600 hover:text-gray-900" activeStyle={{
                         fontWeight: "bold", color: "white", backgroundColor: "red"
                     }} exact="true" to="/noticias" end={true}>Noticias</NavLink>

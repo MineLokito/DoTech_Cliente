@@ -21,8 +21,8 @@ function App() {
         <SideBar />
         <div className=" md:w-2/5 xl:w-4/5 p-6">
           <Routes>
-            <Route path="/" element={<Inicio />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/" element={<Login />} />
+            <Route path="/inicio" element={<Inicio />} />
             <Route path="/nueva-noticia" element={<NuevaNoticia />} />
             <Route path="/noticias" element={<Noticias />} />
             <Route path="/detalle-noticia" element={<DetalleNoticia />} />

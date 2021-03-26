@@ -4,6 +4,7 @@ import * as Yup from 'yup'
 import { FirebaseContext } from '../../firebase';
 import { useNavigate } from 'react-router-dom';
 import FileUploader from 'react-firebase-file-uploader';
+
 const NuevaNoticia = () => {
 
     // state para las imagenes
